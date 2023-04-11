@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
+
 export default function Card({ data }) {
   return (
     <div className="  max-w-sm h-auto lg:max-w-sm inline-block p-2 cursor-pointer lg:hover:scale-105 ease-in-out duration-300">
