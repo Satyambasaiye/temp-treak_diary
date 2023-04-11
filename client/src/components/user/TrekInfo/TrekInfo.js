@@ -6,7 +6,7 @@ import CardList from '../card/CardList'
 
 export default function TrekInfo() {
   return (
-    <div className=' bg-gradient-to-b from-yellow-300 to-white'>
+    <div className=' bg-gradient-to-b from-yellow-300 to-white overflow-x-hidden'>
       <Nav />
       <CardDescription />
       <CardList title={"Upcoming treks"} id={"upcoming2"} />

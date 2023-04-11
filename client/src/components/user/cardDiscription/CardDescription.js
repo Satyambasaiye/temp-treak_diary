@@ -1,17 +1,20 @@
 import React from "react";
 import Data from "./data.json";
+import Book from '../booking/Book'
 
 export default function CardDescription() {
   return (
       <div className=" mt-19 pt-10">
         <div class=" fixed md:bottom-3 bottom-20 md:right-12 right-5 z-10">
-          <button className=" bg-orange-400 py-1.5 px-8 rounded-full hover:bg-orange-500 hover\:text-white shadow-2xl">
+          {/* <button className=" bg-orange-400 py-1.5 px-8 rounded-full hover:bg-orange-500 hover\:text-white shadow-2xl">
             Book Now
-          </button>
+          </button> */}
+
+          <Book />
         </div>
         <div className=" md:mx-10 mx-5 h-auto shadow-lg rounded-3xl bg-white">
           <img
-            className="rounded-3xl"
+            className="rounded-3xl w-full"
             src="/images/sandhan.jpg"
             alt="Sunset in the mountains"
           />
@@ -125,9 +128,10 @@ export default function CardDescription() {
                         </ul>
                       </div>
                       <div>
-                        <button className=" bg-orange-400 pt-1.5 pb-1.5 pl-8 pr-8  m-5 mt-10 rounded-full">
+                        {/* <button className=" bg-orange-400 pt-1.5 pb-1.5 pl-8 pr-8  m-5 mt-10 rounded-full">
                           Book Now
-                        </button>
+                        </button> */}
+                        <Book />
                       </div>
                     </div>
                   );
