@@ -1,0 +1,30 @@
+[
+    {
+        "id" : "1",
+        "teamName":"Trekkers",
+        "teamSize" :"12-15",
+        "teamleader":"ABC"
+        
+    },
+    { "id" : "2",
+    "teamName":"Giryarohak",
+    "teamSize" :"10-15",
+    "teamleader":"XYZ"
+   
+    
+    },
+    { "id" : "3",
+    "teamName":"Adventurers",
+    "teamSize" :"5-8",
+    "teamleader":"PQR"
+   
+    
+    },
+    {
+        "id" : "4",
+        "teamName":"Climbers",
+        "teamSize" :"15-17",
+        "teamleader":"MNO"
+       
+    }
+]
